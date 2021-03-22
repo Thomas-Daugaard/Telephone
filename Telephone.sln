@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephone", "Telephone\Telephone.csproj", "{F21A0FDB-41B9-49BF-99D0-56334C0BE7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephone.Test.Unit", "Telephone.Test.Unit\Telephone.Test.Unit.csproj", "{B0DE9184-48BD-4FA2-8899-345A4A8E43C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21A0FDB-41B9-49BF-99D0-56334C0BE7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21A0FDB-41B9-49BF-99D0-56334C0BE7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21A0FDB-41B9-49BF-99D0-56334C0BE7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21A0FDB-41B9-49BF-99D0-56334C0BE7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DE9184-48BD-4FA2-8899-345A4A8E43C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DE9184-48BD-4FA2-8899-345A4A8E43C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DE9184-48BD-4FA2-8899-345A4A8E43C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DE9184-48BD-4FA2-8899-345A4A8E43C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EA6691C-6241-4EDB-B0BE-F98D581C68E5}
+	EndGlobalSection
+EndGlobal
