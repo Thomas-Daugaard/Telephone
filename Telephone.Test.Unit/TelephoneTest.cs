@@ -58,7 +58,11 @@ namespace Telephone.Test.Unit
         [Test]
         public void PhoneIdle_PressCallButton_StateChangedToCalling()
         {
+            // Act
+            _uut.PressCallButton();
 
+            // Assert
+            Assert.That(_uut.GetState().ToString(), Is.EqualTo(new Connected().ToString()));
         }
     }
 }

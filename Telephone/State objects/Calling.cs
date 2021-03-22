@@ -30,7 +30,7 @@ namespace Telephone.State_objects
             Console.WriteLine("Turning microphone on");
             context.MicrophoneOn = true;
 
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
 
             context.SetState(context.TelephoneConnected());
             context.EstablishConnection();
