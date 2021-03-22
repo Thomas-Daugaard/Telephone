@@ -54,5 +54,11 @@ namespace Telephone.Test.Unit
             // Assert
             Assert.That(_uut.GetNumber, Is.EqualTo("1234"));
         }
+
+        [Test]
+        public void PhoneIdle_PressCallButton_StateChangedToCalling()
+        {
+
+        }
     }
 }
